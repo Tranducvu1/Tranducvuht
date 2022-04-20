@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<borrow>
+    <ticket id="1001">
+        <borrower>Bùi Thanh Hải</borrower>
+        <borrow_date>23/01/2018</borrow_date>
+        <borrow_time>2</borrow_time><!-- thời gian mượn 2 ngày -->
+        <borrow_item>
+            <item>
+                <name>Padman</name>
+                <price>2000</price>
+            </item>
+             <item>
+                <name>Black Panther</name>
+                <price>3000</price>
+            </item>
+        </borrow_item>        
+    </ticket>
+    <ticket id="1002">
+        <borrower>Vũ Minh Trang</borrower>
+        <borrow_date>18/02/2018</borrow_date>
+        <borrow_time>3</borrow_time><!-- thời gian mượn 3 ngày -->
+        <borrow_item>
+            <item>
+                <name>A Wrinkle in Time</name>
+                <price>2000</price>
+            </item>
+             <item>
+                <name>Red Sparrow</name>
+                <price>3000</price>
+            </item>
+        </borrow_item>        
+    </ticket>
+</borrow>
